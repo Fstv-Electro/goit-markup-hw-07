@@ -23,33 +23,33 @@
 
     <header class="page-header">
       <div class="container">
-        <nav class="nav">
-          <a class="logo" href="./index.html"
-            ><span class="logo-web">Web</span>Studio</a
+        <nav class="page-header_nav">
+          <a class="page-header_logo" href="./index.html"
+            ><span class="page-header_logo-web">Web</span>Studio</a
           >
 
-          <ul class="site-nav list">
-            <li class="item current">
-              <a href="./index.html" class="link">Студія</a>
+          <ul class="page-header_site-nav list">
+            <li class="page-header_item page-header_current">
+              <a href="./index.html" class="page-header_link">Студія</a>
             </li>
-            <li class="item">
-              <a href="./portfolio.html" class="link">Портфоліо</a>
+            <li class="page-header_item">
+              <a href="./portfolio.html" class="page-header_link">Портфоліо</a>
             </li>
-            <li class="item"><a href="" class="link">Контакти</a></li>
+            <li class="page-header_item"><a href="" class="page-header_link">Контакти</a></li>
           </ul>
         </nav>
 
-        <ul class="contacts-header list">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="link"
-              ><svg class="icons envelope" width="16" height="16">
+        <ul class="page-header_contacts-header list">
+          <li class="page-header_item">
+            <a href="mailto:info@devstudio.com" class="page-header_link"
+              ><svg class="page-header_icons page-header_envelope" width="16" height="16">
                 <use xlink:href="./images/sprite-icons.svg#envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="link"
-              ><svg class="icons smartphone" width="16" height="16">
+          <li class="page-header_item">
+            <a href="tel:+380961111111" class="page-header_link"
+              ><svg class="page-header_icons page-header_smartphone" width="16" height="16">
                 <use
                   xlink:href="./images/sprite-icons.svg#smartphone"
                 ></use></svg
@@ -65,57 +65,57 @@
 
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-btn" data-modal-open>
+          <h1 class="hero_title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="hero_btn" data-modal-open>
             Замовити послугу
           </button>
         </div>
-        <div class="backdrop is-hidden" data-modal>
+        <div class="hero_backdrop is-hidden" data-modal>
           <div class="modal">
-            <button type="button" class="hero-btn-close" data-modal-close>
-              <svg class="btn-close-svg" width="11" height="11">
+            <button type="button" class="modal_btn-close" data-modal-close>
+              <svg class="modal_icon" width="11" height="11">
                 <use href="./images/sprite-icons.svg#vector"></use>
               </svg>
             </button>
-            <form class="modal-form">
-              <p class="modal-title">
+            <form class="modal_form">
+              <p class="modal_title">
                 Залиште свої дані, ми вам передзвонимо
               </p>
 
               <div class="form-field">
-                <label class="form-label" for="name">Ім'я</label>
+                <label class="form-field_label" for="name">Ім'я</label>
                 <input
-                  class="form-input"
+                  class="form-field_input"
                   type="text"
                   name="user-name"
                   id="name"
                   autofocus
                 />
-                <span class="form-icon-box"><svg class="form-box" width="18" height="18">
-                  <use class="form-icon" href="./images/sprite-icons.svg#person-black"></use>
+                <span class="form-field_icon-box"><svg class="form-box" width="18" height="18">
+                  <use class="form-field_icon" href="./images/sprite-icons.svg#person-black"></use>
                 </svg></span>
               </div>
 
               <div class="form-field">
-                <label class="form-label" for="tel">Телефон</label>
-                <input class="form-input" type="tel" name="tel" id="tel" />
-                <span class="form-icon-box"><svg class="form-box" width="18" height="18">
-                  <use class="form-icon" href="./images/sprite-icons.svg#phone-black"></use>
+                <label class="form-field_label" for="tel">Телефон</label>
+                <input class="form-field_input" type="tel" name="tel" id="tel" />
+                <span class="form-field_icon-box"><svg class="form-box" width="18" height="18">
+                  <use class="form-field_icon" href="./images/sprite-icons.svg#phone-black"></use>
                 </svg></span>
               </div>
 
               <div class="form-field">
-                <label class="form-label" for="mail">Пошта</label>
-                <input class="form-input" type="email" name="mail" id="mail" />
-                <span class="form-icon-box"><svg class="form-box" width="18" height="18">
-                  <use class="form-icon" href="./images/sprite-icons.svg#email-black"></use>
+                <label class="form-field_label" for="mail">Пошта</label>
+                <input class="form-field_input" type="email" name="mail" id="mail" />
+                <span class="form-field_icon-box"><svg class="form-box" width="18" height="18">
+                  <use class="form-field_icon" href="./images/sprite-icons.svg#email-black"></use>
                 </svg></span>
               </div>
 
               <div class="form-field comment">
-                <label class="form-label" for="comment">Коментар</label>
+                <label class="form-field_label" for="comment">Коментар</label>
                 <textarea
-                  class="form-textarea"
+                  class="form-field_textarea"
                   name="comment"
                   id="comment"
                   placeholder="Введіть текст"
@@ -124,20 +124,20 @@
 
               <div class="policy">
                 
-                <label class="policy-label">
-                  <input class="policy-input" type="checkbox" name="chx-policy"/>
-                  <span class="policy-checkbox">
-                    <svg class="policy-box-icon" width="16" height="15"> 
-                      <use class="policy-icon" href="./images/sprite-icons.svg#icon-check">
+                <label class="policy_label">
+                  <input class="policy_input" type="checkbox" name="chx-policy"/>
+                  <span class="policy_checkbox">
+                    <svg class="policy_box-icon" width="16" height="15"> 
+                      <use class="policy_icon" href="./images/sprite-icons.svg#icon-check">
                       </use>
                     </svg>
                   </span>
                   Погоджуюся з розсилкою та приймаю</label
                 >
-                <a class="policy-link" href="">Умови договору</a>
+                <a class="policy_link" href="">Умови договору</a>
               </div>
 
-              <button class="form-btn-submit" type="submit">Відправити</button>
+              <button class="form-field_btn--submit" type="submit">Відправити</button>
 
             </form>
           </div>
@@ -148,7 +148,7 @@
 
       <section class="features">
         <div class="container main">
-          <h2 class="section-title visually-hidden">Наші переваги</h2>
+          <h2 class="section_title visually-hidden">Наші переваги</h2>
 
           <ul class="list">
             <li class="item">
@@ -206,7 +206,7 @@
 
       <section class="work">
         <div class="container main">
-          <h2 class="section-title work-title">Чим ми займаємося</h2>
+          <h2 class="section_title work-title">Чим ми займаємося</h2>
 
           <ul class="list">
             <li class="item">
@@ -253,7 +253,7 @@
 
       <section class="team">
         <div class="container">
-          <h2 class="section-title team-title">Наша команда</h2>
+          <h2 class="section_title team-title">Наша команда</h2>
           <ul class="list">
             <li class="item">
               <img
@@ -459,7 +459,7 @@
 
       <section class="clients">
         <div class="container">
-          <h2 class="section-title clients-title">Постійні клієнти</h2>
+          <h2 class="section_title clients-title">Постійні клієнти</h2>
           <ul class="list clients-list">
             <li class="item">
               <a class="clients-link" href="#" target="_blank"
