@@ -24,11 +24,11 @@
     <header class="page-header">
       <div class="container">
         <nav class="page-header_nav">
-          <a class="page-header_logo" href="./index.html"
-            ><span class="page-header_logo-web">Web</span>Studio</a
+          <a class="page-header_logo logo" href="./index.html"
+            ><span class="logo-web">Web</span>Studio</a
           >
 
-          <ul class="page-header_site-nav list">
+          <ul class="page-header_site-nav page-header_list">
             <li class="page-header_item page-header_current">
               <a href="./index.html" class="page-header_link">Студія</a>
             </li>
@@ -39,7 +39,7 @@
           </ul>
         </nav>
 
-        <ul class="page-header_contacts-header list">
+        <ul class="page-header_contacts-header page-header_list">
           <li class="page-header_item">
             <a href="mailto:info@devstudio.com" class="page-header_link"
               ><svg class="page-header_icons page-header_envelope" width="16" height="16">
@@ -150,50 +150,50 @@
         <div class="container main">
           <h2 class="section_title visually-hidden">Наші переваги</h2>
 
-          <ul class="list">
-            <li class="item">
-              <div class="icon-box">
-                <svg class="features-icons">
+          <ul class="features_list">
+            <li class="features_item">
+              <div class="features_icon-box">
+                <svg class="features_icons">
                   <use href="./images/sprite-icons.svg#antenna"></use>
                 </svg>
               </div>
-              <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p>
+              <h3 class="features_title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="features_text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="item">
-              <div class="icon-box">
-                <svg class="features-icons">
+            <li class="features_item">
+              <div class="features_icon-box">
+                <svg class="features_icons">
                   <use href="./images/sprite-icons.svg#clock"></use>
                 </svg>
               </div>
-              <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
-              <p>
+              <h3 class="features_title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="features_text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="item">
-              <div class="icon-box">
-                <svg class="features-icons">
+            <li class="features_item">
+              <div class="features_icon-box">
+                <svg class="features_icons">
                   <use href="./images/sprite-icons.svg#diagram"></use>
                 </svg>
               </div>
-              <h3 class="features-title">ПЛАНУВАННЯ</h3>
-              <p>
+              <h3 class="features_title">ПЛАНУВАННЯ</h3>
+              <p class="features_text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="item">
-              <div class="icon-box">
-                <svg class="features-icons">
+            <li class="features_item">
+              <div class="features_icon-box">
+                <svg class="features_icons">
                   <use href="./images/sprite-icons.svg#astronaut"></use>
                 </svg>
               </div>
-              <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p>
+              <h3 class="features_title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="features_text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -205,43 +205,43 @@
       <!-- чим ми займаємося -->
 
       <section class="work">
-        <div class="container main">
-          <h2 class="section_title work-title">Чим ми займаємося</h2>
+        <div class="container">
+          <h2 class="section_title work_title">Чим ми займаємося</h2>
 
-          <ul class="list">
-            <li class="item">
-              <div class="work-overlay">
+          <ul class="work_list">
+            <li class="work_item">
+              <div class="work_overlay">
                 <img
                   src="https://fstv-electro.github.io/goit-markup-hw-01/images/box1.jpg"
                   width="370"
                   alt="Робота за комп'ютером"
                 />
-                <div class="work-text-overlay">
-                  <p class="work-text-forward">десктопні додатки</p>
+                <div class="work_text-overlay">
+                  <p class="work_text-forward">десктопні додатки</p>
                 </div>
               </div>
             </li>
-            <li class="item">
-              <div class="work-overlay">
+            <li class="work_item">
+              <div class="work_overlay">
                 <img
                   src="https://fstv-electro.github.io/goit-markup-hw-01/images/box2.jpg"
                   width="370"
                   alt="Робота за комп'ютером 2"
                 />
-                <div class="work-text-overlay">
-                  <p class="work-text-forward">мобільні додатки</p>
+                <div class="work_text-overlay">
+                  <p class="work_text-forward">мобільні додатки</p>
                 </div>
               </div>
             </li>
-            <li class="item">
-              <div class="work-overlay">
+            <li class="work_item">
+              <div class="work_overlay">
                 <img
                   src="https://fstv-electro.github.io/goit-markup-hw-01/images/box3.jpg"
                   width="370"
                   alt="Робота за планшетом"
                 />
-                <div class="work-text-overlay">
-                  <p class="work-text-forward">дизайнерські рішення</p>
+                <div class="work_text-overlay">
+                  <p class="work_text-forward">дизайнерські рішення</p>
                 </div>
               </div>
             </li>
@@ -253,199 +253,203 @@
 
       <section class="team">
         <div class="container">
-          <h2 class="section_title team-title">Наша команда</h2>
-          <ul class="list">
-            <li class="item">
+          <h2 class="section_title team_title">Наша команда</h2>
+          <ul class="team_list">
+            <li class="team_item">
               <img
                 src="https://fstv-electro.github.io/goit-markup-hw-01/images/img1.jpg"
                 width="270"
                 alt="Чоловік в червоній сорочці"
+                class="team_img"
               />
-              <h3 class="name-title">Ігор Дем'яненко</h3>
-              <p>Product Designer</p>
+              <h3 class="team_name">Ігор Дем'яненко</h3>
+              <p class="team_text">Product Designer</p>
               <ul class="socials">
-                <li class="social-item">
+                <li class="socials_item">
                   <a
-                    class="socials-links"
+                    class="socials_links"
                     href="https://www.instagram.com/"
                     target="_blank"
-                    ><svg class="icons">
+                    ><svg class="socials_icons">
                       <use
                         href="./images/sprite-icons.svg#instagram"
                       ></use></svg
                   ></a>
                 </li>
-                <li class="social-item">
+                <li class="socials_item">
                   <a
-                    class="socials-links"
+                    class="socials_links"
                     href="https://twitter.com/"
                     target="_blank"
-                    ><svg class="icons">
+                    ><svg class="socials_icons">
                       <use href="./images/sprite-icons.svg#twitter"></use></svg
                   ></a>
                 </li>
-                <li class="social-item">
+                <li class="socials_item">
                   <a
-                    class="socials-links"
+                    class="socials_links"
                     href="www.facebook.com"
                     target="_blank"
-                    ><svg class="icons">
+                    ><svg class="socials_icons">
                       <use href="./images/sprite-icons.svg#facebook"></use></svg
                   ></a>
                 </li>
-                <li class="social-item">
+                <li class="socials_item">
                   <a
-                    class="socials-links"
+                    class="socials_links"
                     href="https://linkedin.com/"
                     target="_blank"
-                    ><svg class="icons">
+                    ><svg class="socials_icons">
                       <use href="./images/sprite-icons.svg#linkedin"></use></svg
                   ></a>
                 </li>
               </ul>
             </li>
-            <li class="item">
+            <li class="team_item">
               <img
                 src="https://fstv-electro.github.io/goit-markup-hw-01/images/img2.jpg"
                 width="270"
                 alt="Жінка в чорному піджаку"
+                class="team_img"
               />
-              <h3 class="name-title">Ольга Рєпіна</h3>
-              <p>Frontend Developer</p>
+              <h3 class="team_name">Ольга Рєпіна</h3>
+              <p class="team_text">Frontend Developer</p>
               <ul class="socials">
-                <li>
+                <li class="socials_item">
                   <a
-                    class="socials-links"
+                    class="socials_links"
                     href="https://www.instagram.com/"
                     target="_blank"
-                    ><svg class="icons">
+                    ><svg class="socials_icons">
                       <use
                         href="./images/sprite-icons.svg#instagram"
                       ></use></svg
                   ></a>
                 </li>
-                <li>
+                <li class="socials_item">
                   <a
-                    class="socials-links"
+                    class="socials_links"
                     href="https://twitter.com/"
                     target="_blank"
-                    ><svg class="icons">
+                    ><svg class="socials_icons">
                       <use href="./images/sprite-icons.svg#twitter"></use></svg
                   ></a>
                 </li>
-                <li>
+                <li class="socials_item">
                   <a
-                    class="socials-links"
+                    class="socials_links"
                     href="www.facebook.com"
                     target="_blank"
-                    ><svg class="icons">
+                    ><svg class="socials_icons">
                       <use href="./images/sprite-icons.svg#facebook"></use></svg
                   ></a>
                 </li>
-                <li>
+                <li class="socials_item">
                   <a
-                    class="socials-links"
+                    class="socials_links"
                     href="https://linkedin.com/"
                     target="_blank"
-                    ><svg class="icons">
+                    ><svg class="socials_icons">
                       <use href="./images/sprite-icons.svg#linkedin"></use></svg
                   ></a>
                 </li>
               </ul>
             </li>
-            <li class="item">
+            <li class="team_item">
               <img
                 src="https://fstv-electro.github.io/goit-markup-hw-01/images/img3.jpg"
                 width="270"
                 alt="Чоловік в блакитній сорочці"
+                class="team_img"
               />
-              <h3 class="name-title">Микола Тарасов</h3>
-              <p>Marketing</p>
+              <h3 class="team_name">Микола Тарасов</h3>
+              <p class="team_text">Marketing</p>
               <ul class="socials">
-                <li>
+                <li class="socials_item">
                   <a
-                    class="socials-links"
+                    class="socials_links"
                     href="https://www.instagram.com/"
                     target="_blank"
-                    ><svg class="icons">
+                    ><svg class="socials_icons">
                       <use
                         href="./images/sprite-icons.svg#instagram"
                       ></use></svg
                   ></a>
                 </li>
-                <li>
+                <li class="socials_item">
                   <a
-                    class="socials-links"
+                    class="socials_links"
                     href="https://twitter.com/"
                     target="_blank"
-                    ><svg class="icons">
+                    ><svg class="socials_icons">
                       <use href="./images/sprite-icons.svg#twitter"></use></svg
                   ></a>
                 </li>
-                <li>
+                <li class="socials_item">
                   <a
-                    class="socials-links"
+                    class="socials_links"
                     href="www.facebook.com"
                     target="_blank"
-                    ><svg class="icons">
+                    ><svg class="socials_icons">
                       <use href="./images/sprite-icons.svg#facebook"></use></svg
                   ></a>
                 </li>
-                <li>
+                <li class="socials_item">
                   <a
-                    class="socials-links"
+                    class="socials_links"
                     href="https://linkedin.com/"
                     target="_blank"
-                    ><svg class="icons">
+                    ><svg class="socials_icons">
                       <use href="./images/sprite-icons.svg#linkedin"></use></svg
                   ></a>
                 </li>
               </ul>
             </li>
-            <li class="item">
+            <li class="team_item">
               <img
                 src="https://fstv-electro.github.io/goit-markup-hw-01/images/img4.jpg"
                 width="270"
                 alt="Чоловік в чорній футболці"
+                class="team_img"
               />
-              <h3 class="name-title">Михайло Єрмаков</h3>
-              <p>Designer</p>
+              <h3 class="team_name">Михайло Єрмаков</h3>
+              <p class="team_text">Designer</p>
               <ul class="socials">
-                <li>
+                <li class="socials_item">
                   <a
-                    class="socials-links"
+                    class="socials_links"
                     href="https://www.instagram.com/"
                     target="_blank"
-                    ><svg class="icons">
+                    ><svg class="socials_icons">
                       <use
                         href="./images/sprite-icons.svg#instagram"
                       ></use></svg
                   ></a>
                 </li>
-                <li>
+                <li class="socials_item">
                   <a
-                    class="socials-links"
+                    class="socials_links"
                     href="https://twitter.com/"
                     target="_blank"
-                    ><svg class="icons">
+                    ><svg class="socials_icons">
                       <use href="./images/sprite-icons.svg#twitter"></use></svg
                   ></a>
                 </li>
-                <li>
+                <li class="socials_item">
                   <a
-                    class="socials-links"
+                    class="socials_links"
                     href="www.facebook.com"
                     target="_blank"
-                    ><svg class="icons">
+                    ><svg class="socials_icons">
                       <use href="./images/sprite-icons.svg#facebook"></use></svg
                   ></a>
                 </li>
-                <li>
+                <li class="socials_item">
                   <a
-                    class="socials-links"
+                    class="socials_links"
                     href="https://linkedin.com/"
                     target="_blank"
-                    ><svg class="icons">
+                    ><svg class="socials_icons">
                       <use href="./images/sprite-icons.svg#linkedin"></use></svg
                   ></a>
                 </li>
@@ -459,41 +463,41 @@
 
       <section class="clients">
         <div class="container">
-          <h2 class="section_title clients-title">Постійні клієнти</h2>
-          <ul class="list clients-list">
-            <li class="item">
-              <a class="clients-link" href="#" target="_blank"
-                ><svg class="icons" width="106" height="60">
+          <h2 class="section_title clients_title">Постійні клієнти</h2>
+          <ul class="list clients_list">
+            <li class="clients_item">
+              <a class="clients_link" href="#" target="_blank"
+                ><svg class="clients_icons" width="106" height="60">
                   <use xlink:href="./images/sprite-icons.svg#logo"></use></svg
               ></a>
             </li>
-            <li class="item">
-              <a class="clients-link" href="#" target="_blank"
-                ><svg class="icons" width="106" height="60">
+            <li class="clients_item">
+              <a class="clients_link" href="#" target="_blank"
+                ><svg class="clients_icons" width="106" height="60">
                   <use xlink:href="./images/sprite-icons.svg#logo2"></use></svg
               ></a>
             </li>
-            <li class="item">
-              <a class="clients-link" href="#" target="_blank"
-                ><svg class="icons" width="106" height="60">
+            <li class="clients_item">
+              <a class="clients_link" href="#" target="_blank"
+                ><svg class="clients_icons" width="106" height="60">
                   <use xlink:href="./images/sprite-icons.svg#logo3"></use></svg
               ></a>
             </li>
-            <li class="item">
-              <a class="clients-link" href="#" target="_blank"
-                ><svg class="icons" width="106" height="60">
+            <li class="clients_item">
+              <a class="clients_link" href="#" target="_blank"
+                ><svg class="clients_icons" width="106" height="60">
                   <use xlink:href="./images/sprite-icons.svg#logo4"></use></svg
               ></a>
             </li>
-            <li class="item">
-              <a class="clients-link" href="#" target="_blank"
-                ><svg class="icons" width="106" height="60">
+            <li class="clients_item">
+              <a class="clients_link" href="#" target="_blank"
+                ><svg class="clients_icons" width="106" height="60">
                   <use xlink:href="./images/sprite-icons.svg#logo5"></use></svg
               ></a>
             </li>
-            <li class="item">
-              <a class="clients-link" href="#" target="_blank"
-                ><svg class="icons" width="106" height="60">
+            <li class="clients_item">
+              <a class="clients_link" href="#" target="_blank"
+                ><svg class="clients_icons" width="106" height="60">
                   <use xlink:href="./images/sprite-icons.svg#logo6"></use></svg
               ></a>
             </li>
@@ -506,29 +510,29 @@
 
     <footer class="footer">
       <div class="container">
-        <div class="logo-address">
-          <a class="logo" href="./index.html"
+        <div class="footer_logo-address">
+          <a class="footer_logo logo" href="./index.html"
             ><span class="logo-web">Web</span>Studio</a
           >
 
           <address>
-            <ul class="list">
-              <li class="footer-list">
+            <ul class="footer_list">
+              <li class="footer_item">
                 <a
                   href="https://goo.gl/maps/cwUCHpKbUyFMeZRM7"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
-                  class="contacts-footer link address-link"
+                  class="contacts_footer footer_address-link"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="footer-list">
-                <a href="mailto:info@devstudio.com" class="contacts-footer link"
+              <li class="footer_item">
+                <a href="mailto:info@devstudio.com" class="contacts_footer"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="footer-list">
-                <a href="tel:+380961111111" class="contacts-footer link"
+              <li class="footer_item">
+                <a href="tel:+380961111111" class="contacts_footer"
                   >+38 099 111 11 11</a
                 >
               </li>
@@ -536,52 +540,52 @@
           </address>
         </div>
         <div class="submit">
-          <p class="submit-title">Приєднуйтесь</p>
+          <p class="submit_title">Приєднуйтесь</p>
           <ul class="socials">
-            <li class="item">
+            <li class="socials_item submit_item">
               <a
-                class="socials-links"
+                class="socials_links"
                 href="https://www.instagram.com/"
                 target="_blank"
-                ><svg class="icons">
+                ><svg class="socials_icons">
                   <use href="./images/sprite-icons.svg#instagram"></use></svg
               ></a>
             </li>
-            <li class="item">
+            <li class="socials_item submit_item">
               <a
-                class="socials-links"
+                class="socials_links"
                 href="https://twitter.com/"
                 target="_blank"
-                ><svg class="icons">
+                ><svg class="socials_icons">
                   <use href="./images/sprite-icons.svg#twitter"></use></svg
               ></a>
             </li>
-            <li class="item">
-              <a class="socials-links" href="www.facebook.com" target="_blank"
-                ><svg class="icons">
+            <li class="socials_item submit_item">
+              <a class="socials_links" href="www.facebook.com" target="_blank"
+                ><svg class="socials_icons">
                   <use href="./images/sprite-icons.svg#facebook"></use></svg
               ></a>
             </li>
-            <li class="item">
+            <li class="socials_item submit_item">
               <a
-                class="socials-links"
+                class="socials_links"
                 href="https://linkedin.com/"
                 target="_blank"
-                ><svg class="icons">
+                ><svg class="socials_icons">
                   <use href="./images/sprite-icons.svg#linkedin"></use></svg
               ></a>
             </li>
           </ul>
         </div>
-        <div class="footer-form-submit">
-          <p class="submit-title">Підпишіться на розсилку</p>
-          <form class="from-submit">
-            <label class="footer-label">
-            <input type="email" placeholder="E-mail" name="mail" class="footer-input">
+        <div class="footer_form-submit">
+          <p class="submit_title">Підпишіться на розсилку</p>
+          <form class="footer_submit-form">
+            <label class="footer_label">
+            <input type="email" placeholder="E-mail" name="mail" class="footer_input">
             </label>
-            <button type="submit" class="footer-btn">Підписатися
-              <svg class="footer-submit-box" width="30" height="30">
-                <use class="footer-submit-icon" href="./images/sprite-icons.svg#icon-send">
+            <button type="submit" class="footer_btn">Підписатися
+              <svg class="footer_submit-box" width="30" height="30">
+                <use class="footer_submit-icon" href="./images/sprite-icons.svg#icon-send">
                 </use>
               </svg>
             </button>
