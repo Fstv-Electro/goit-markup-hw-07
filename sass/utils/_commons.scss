@@ -2,11 +2,11 @@ body {
     margin: 0;
     background-color: $bcg-white-color;
     color: $text-color;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+    font-family: $ff-roboto;
+    font-weight: $fw-norm;
+    font-size: $fft-14;
 
-    letter-spacing: 0.03em;
+    letter-spacing: $ls3;
 }
 
 .visually-hidden {
@@ -63,9 +63,9 @@ img {
 }
 
 .section_title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
+    font-weight: $fw-bold;
+    font-size: $fstt-36;
+    line-height: $lh-16;
     text-align: center;
 
     color: $text-h-color;

@@ -90,8 +90,8 @@ img {
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
+  font-family: "Railway", sans-serif;
+  font-weight: 900;
   font-size: 26px;
   line-height: 1.2;
   color: #000000;
@@ -236,7 +236,7 @@ img {
 }
 .hero_btn:hover, .hero_btn:focus {
   cursor: pointer;
-  background-color: #188ce8;
+  background-color: #2f303a;
 }
 
 .hero_backdrop {

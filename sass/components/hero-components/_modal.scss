@@ -65,7 +65,7 @@
 }
 
 .modal_title {
-    font-weight: 700;
+    font-weight: $fw-bold;
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
@@ -88,7 +88,7 @@
 
 .form-field_label,
 .policy_label {
-    font-weight: 400;
+    font-weight: $fw-norm;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
@@ -96,7 +96,7 @@
 }
 
 .form-field_input {
-    font-weight: 400;
+    font-weight: $fw-norm;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
@@ -112,7 +112,7 @@
 }
 
 .policy_input {
-    font-weight: 400;
+    font-weight: $fw-norm;
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.01em;
@@ -154,7 +154,7 @@
 }
 
 .form-field_textarea {
-    font-weight: 400;
+    font-weight: $fw-norm;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
@@ -173,7 +173,7 @@
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &::placeholder {
-            font-weight: 400;
+            font-weight: $fw-norm;
             font-size: 12px;
             line-height: 1.17px;
             letter-spacing: 0.01em;
@@ -191,7 +191,7 @@
 
 .policy_label,
 .policy_link {
-    font-weight: 400;
+    font-weight: $fw-norm;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -259,7 +259,7 @@
     height: 50px;
     margin: 0 auto;
 
-    font-weight: 700;
+    font-weight: $fw-bold;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;

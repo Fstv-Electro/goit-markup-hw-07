@@ -12,11 +12,11 @@
     }
 
     &_btn {
-        font-family: "Roboto", sans-serif;
+        font-family: $ff-roboto;
         background-color: $bcg-grey-color;
         color: $text-h-color;
         font-style: normal;
-        font-weight: 500;
+        font-weight: $fw-med;
         font-size: 16px;
         line-height: 1.62;
         text-align: center;
