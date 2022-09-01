@@ -1,0 +1,23 @@
+.work {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+
+    &_list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    &_title {
+        margin-bottom: 50px;
+    }
+    
+    &_item {
+        margin-right: 30px;
+    }
+    
+    &_item:nth-child(3n) {
+        margin-right: 0px;
+    }
+
+}

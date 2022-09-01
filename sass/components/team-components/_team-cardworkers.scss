@@ -1,0 +1,26 @@
+.team_img {
+    display: block;
+}
+
+.team_name {
+    color: $text-h-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.team_text {
+    font-size: 16px;
+    line-height: 1.19;
+    margin-bottom: 16px;
+    text-align: center;
+
+    &:hover,
+        &:focus {
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+}
+

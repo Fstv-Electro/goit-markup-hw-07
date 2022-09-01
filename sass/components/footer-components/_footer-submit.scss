@@ -1,0 +1,77 @@
+/* Підвал підписка */
+
+.footer {
+
+    &_form-submit {
+        padding-top: 12px;
+    }
+
+    &_input {
+        width: 358px;
+        height: 50px;
+        padding: 15px 16px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        color: var(--bcg-white-color);
+        background-color: #2f303a;
+
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:focus {
+                border: 1px solid $btn-blue-color;
+            }
+    }
+
+    &_btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 0 28px;
+        width: 200px;
+        height: 50px;
+
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.06em;
+        color: $bcg-white-color;
+
+        background-color: $btn-blue-color;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+            &:hover,
+                &:focus {
+                    background-color: #188ce8;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                }
+    }
+
+    &_submit {
+        &-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $bcg-white-color;
+        }
+
+        &-icon {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+        }
+
+        &-form {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 570px;
+        }
+    } 
+}

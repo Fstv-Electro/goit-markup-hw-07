@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    background-color: $bcg-black-color;
+    color: $bcg-white-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .container {
+            display: flex;
+        }
+        
+    .socials_links .socials {
+        display: flex;
+    }
+
+
+    &_address-link {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    &_item:not(:last-child) {
+        margin-bottom: 9px;
+    }
+
+    &_logo-address {
+        margin-right: 70px;
+    }
+
+}

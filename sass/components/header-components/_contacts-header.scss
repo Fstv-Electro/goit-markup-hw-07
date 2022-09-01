@@ -1,0 +1,48 @@
+/* Посилання */
+
+.page-header_link {
+    text-decoration: none;
+    
+    &:hover,
+    &:focus {
+        color: $btn-blue-color;
+    }
+}
+
+/* контакти */
+
+.page-header_contacts-header {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $text-color;
+}
+
+.page-header_item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.page-header_link {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: $text-color;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Іконки */
+
+.page-header_icons {
+    border: 0;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+    fill: currentColor;
+}

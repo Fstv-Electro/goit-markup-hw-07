@@ -1,0 +1,19 @@
+.features_icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: $bcg-grey-color;
+    color: $text-h-color;
+}
+
+.features_icons {
+    border: 0;
+    margin: 0;
+
+    width: 70px;
+    height: 70px;
+    fill: currentColor;
+}

@@ -1,1 +1,47 @@
 @import './utils/variables';
+@import './utils/commons';
+
+
+//    Studio Page
+
+// Header Components
+
+@import './components/header-components/page-header';
+@import './components/header-components/logo';
+@import './components/header-components/site-nav';
+@import './components/header-components/contacts-header';
+
+
+//  Hero and Backdrop Components
+
+@import './components/hero-components/hero-bcg-overlay';
+@import './components/hero-components/hero-backdrop';
+@import './components/hero-components/modal';
+
+//  Features Components
+
+@import './components/features-components/features-common';
+@import './components/features-components/features-img';
+
+// Work Components
+
+@import './components/work-components/work-common';
+@import './components/work-components/work-img';
+
+// Team Components
+
+@import './components/team-components/team-common';
+@import './components/team-components/team-cardworkers';
+@import './components/team-components/team-social-links';
+
+// Clients Components
+
+@import './components/clients-components/clients';
+
+// Footer Components
+
+@import './components/footer-components/footer-common';
+@import './components/footer-components/footer-logo';
+@import './components/footer-components/footer-contacts';
+@import './components/footer-components/footer-socials';
+@import './components/footer-components/footer-submit';
