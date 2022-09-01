@@ -95,8 +95,7 @@
     margin-bottom: 4px;
 }
 
-.form-field_input,
-.policy_input {
+.form-field_input {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
@@ -104,12 +103,26 @@
     color: $text-color;
 
     margin: 0;
-    // padding: 12px;
-    // padding-left: 42px;
+    padding: 12px;
+    padding-left: 42px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 
     cursor: pointer;
+}
+
+.policy_input {
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.01em;
+        color: $text-color;
+    
+        margin: 0;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+    
+        cursor: pointer;
 }
 
 .form-field_icon-box {

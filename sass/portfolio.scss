@@ -1,0 +1,30 @@
+@import './utils/variables';
+@import './utils/commons';
+
+
+//   PORTFOLIO Page
+
+// Header Components
+
+@import './components/header-components/page-header';
+@import './components/header-components/logo';
+@import './components/header-components/site-nav';
+@import './components/header-components/contacts-header';
+
+//Filter
+
+@import './components/portfolio-components/filter';
+
+// CARDS
+
+@import './components/portfolio-components/cards';
+@import './components/portfolio-components/cards-overlay';
+
+// Footer Components
+
+@import './components/footer-components/footer-common';
+@import './components/footer-components/footer-logo';
+@import './components/footer-components/footer-contacts';
+@import './components/footer-components/footer-socials';
+@import './components/footer-components/footer-socials-portfolio';
+@import './components/footer-components/footer-submit';

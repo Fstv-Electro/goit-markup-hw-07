@@ -1098,11 +1098,6 @@ img {
   flex-wrap: wrap;
 }
 
-/* .portfolio .item:hover,
-.portfolio .item:focus {
-  
-} */
-
 .portfolio_item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
