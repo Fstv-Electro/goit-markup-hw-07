@@ -104,8 +104,8 @@
     color: $text-color;
 
     margin: 0;
-    padding: 12px;
-    padding-left: 42px;
+    // padding: 12px;
+    // padding-left: 42px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 
@@ -226,7 +226,7 @@
     fill: currentColor;
 }
 
-.policy_input:checked+.policy_checkbox {
+.policy_input:checked + .policy_checkbox {
     background-color: $btn-blue-color;
     border: 0;
 }
