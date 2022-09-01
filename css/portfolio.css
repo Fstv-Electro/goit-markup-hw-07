@@ -30,15 +30,9 @@ body {
   padding: 0 15px;
 }
 
-.page-header_list,
-.work_list,
-.features_list,
-.team_list,
-.clients_list,
+.socials, .portfolio_list, .portfolio_list-btn, .page-header_list, .clients_list,
 .address_list,
-.footer_list,
-.portfolio_list,
-.portfolio_list-btn {
+.footer_list {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -388,10 +382,7 @@ img {
 }
 
 .socials {
-  padding: 0;
-  margin: 0;
   display: flex;
-  list-style: none;
 }
 
 /* Підвал підписка */

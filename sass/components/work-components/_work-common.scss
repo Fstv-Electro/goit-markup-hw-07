@@ -4,6 +4,7 @@
 
 
     &_list {
+        @extend %cancel-list;
         display: flex;
         flex-wrap: wrap;
     }
