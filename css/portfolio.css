@@ -91,7 +91,7 @@ img {
 
 .logo {
   font-family: "Railway", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: #000000;
@@ -195,6 +195,10 @@ img {
   justify-content: center;
   margin-bottom: 50px;
 }
+.portfolio_item-btn:not(:last-child) {
+  margin-right: 8px;
+}
+
 .portfolio_btn {
   font-family: "Roboto", sans-serif;
   background-color: #f5f4fa;
@@ -207,16 +211,13 @@ img {
   border-color: transparent;
   border-radius: 4px;
   padding: 6px 22px;
-  transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio_btn:hover, .portfolio_btn:focus {
   background-color: #2196f3;
   color: #ffffff;
-  cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.portfolio_item-btn:not(:last-child) {
-  margin-right: 8px;
+  cursor: pointer;
 }
 
 /* Список робіт */
@@ -233,6 +234,7 @@ img {
 .portfolio_link-card {
   display: block;
   text-decoration: none;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio_link-card:hover, .portfolio_link-card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -366,10 +368,6 @@ img {
 }
 .footer .submit_item {
   margin: 0;
-}
-.footer .submit_item:not(:last-child) {
-  margin-top: 0;
-  margin-right: 10px;
 }
 .footer .submit_title {
   margin: 0;

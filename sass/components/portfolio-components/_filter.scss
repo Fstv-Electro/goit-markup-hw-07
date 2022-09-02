@@ -11,35 +11,35 @@
         margin-bottom: 50px;
     }
 
-    &_btn {
-        font-family: $ff-roboto;
-        background-color: $bcg-grey-color;
-        color: $text-h-color;
-        font-style: normal;
-        font-weight: $fw-med;
-        font-size: 16px;
-        line-height: 1.62;
-        text-align: center;
-
-        border-color: transparent;
-        border-radius: 4px;
-        padding: 6px 22px;
-
-        transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-            &:hover,
-            &:focus {
-                background-color: $btn-blue-color;
-                color: $bcg-white-color;
-                cursor: pointer;
-                box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-                    0px 2px 2px rgba(0, 0, 0, 0.12);
-            }
-    }
+    
 
     &_item-btn:not(:last-child) {
         margin-right: 8px;
+    }
+}
+
+.portfolio_btn {
+    font-family: $ff-roboto;
+    background-color: $bcg-grey-color;
+    color: $text-h-color;
+    font-style: normal;
+    font-weight: $fw-med;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+
+    border-color: transparent;
+    border-radius: 4px;
+    padding: 6px 22px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: $btn-blue-color;
+        color: $bcg-white-color;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
+        cursor: pointer;
     }
 }

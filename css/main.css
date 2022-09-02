@@ -91,7 +91,7 @@ img {
 
 .logo {
   font-family: "Railway", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: #000000;
@@ -192,7 +192,7 @@ img {
   margin-left: auto;
   height: 600px;
   max-width: 1600px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(47, 48, 58, 0.4) 40%), url("../images/hero.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(47, 48, 58, 0.4) 40%), url("../../../../images/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -669,7 +669,7 @@ img {
   padding: 0;
   display: flex;
   list-style: none;
-  margin: 0 32px;
+  gap: 10px;
   padding-bottom: 30px;
   justify-content: space-between;
 }
@@ -811,10 +811,6 @@ img {
 }
 .footer .submit_item {
   margin: 0;
-}
-.footer .submit_item:not(:last-child) {
-  margin-top: 0;
-  margin-right: 10px;
 }
 .footer .submit_title {
   margin: 0;
