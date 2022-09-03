@@ -211,7 +211,7 @@ img {
   border-color: transparent;
   border-radius: 4px;
   padding: 6px 22px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio_btn:hover, .portfolio_btn:focus {
   background-color: #2196f3;
@@ -282,8 +282,8 @@ img {
   background-color: rgba(33, 150, 243, 0.9);
 }
 
-.portfolio_card--overlay:hover .portfolio_card-text--overlay,
-.portfolio_card--overlay:focus .portfolio_card-text--overlay {
+.portfolio_link-card:hover .portfolio_card-text--overlay,
+.portfolio_link-card:focus .portfolio_card-text--overlay {
   transform: translateY(0);
 }
 
@@ -381,6 +381,7 @@ img {
 
 .socials {
   display: flex;
+  gap: 10px;
 }
 
 /* Підвал підписка */

@@ -1,5 +1,6 @@
 .socials {
     @extend %cancel-list;
     display: flex;
+    gap: 10px;
 
 }

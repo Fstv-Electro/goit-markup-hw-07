@@ -24,7 +24,7 @@
     background-color: rgba(33, 150, 243, 0.9);
 }
 
-.portfolio_card--overlay:hover .portfolio_card-text--overlay,
-.portfolio_card--overlay:focus .portfolio_card-text--overlay {
+.portfolio_link-card:hover .portfolio_card-text--overlay,
+.portfolio_link-card:focus .portfolio_card-text--overlay {
     transform: translateY(0);
 }
