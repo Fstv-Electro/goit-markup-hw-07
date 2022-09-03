@@ -236,7 +236,7 @@ img {
 }
 .hero_btn:hover, .hero_btn:focus {
   cursor: pointer;
-  background-color: #2f303a;
+  background-color: #188ce8;
 }
 
 .hero_backdrop {
